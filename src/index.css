@@ -1,0 +1,33 @@
+@import "./styles/ThemeColors.css";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  font-family: 'Pacifico';
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--background);
+  background-image: url("./images/background.png");
+}
+
+.Title {
+  color: var(--black);
+
+  font-weight: bold;
+  /* font-size: 3vw; */
+}
+
+.Text {
+  color: var(--white);
+
+  line-height: 1;
+  font-weight: normal;
+  font-size: 3vw;
+  max-width: 1000%;
+  margin-bottom: 1.5vh;
+  text-align: center;
+}
