@@ -48,8 +48,8 @@ function App() {
 
       <div id="roadmap" />
       <div className="Roadmap row" data-aos="fade-up" style={{marginTop: "15vh"}}>
-        <div className="col-12 col-lg-6"><img src={Roadmap} className="shadow-lg RoadmapImage" /></div>
-        <div className="col-12 col-lg-6"><img src={Roadmap2} className="shadow-lg RoadmapImage" /></div>
+        <div className="col-12 col-lg-6"><img src={Roadmap} className="shadow-lg RoadmapImage w-100" /></div>
+        <div className="col-12 col-lg-6"><img src={Roadmap2} className="shadow-lg RoadmapImage w-100" /></div>
         
         
       </div>
@@ -65,49 +65,49 @@ function App() {
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502159382814720/unknown.png?width=358&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Oscar Dos Santos</h4>
-              <p className="TeamMemberRole normalfont">Digital marketer and Co-founder</p>
+              <p className="TeamMemberRole normalfont">Co-founder & Digital marketer</p>
             </div>  
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502159936471060/unknown.png?width=398&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Senne Hubner</h4>
-              <p className="TeamMemberRole normalfont">Co-founder and blockchain-expert</p>
+              <p className="TeamMemberRole normalfont">Co-founder & blockchain-expert</p>
             </div>  
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502160959893505/unknown.png?width=667&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Roy Kurilla</h4>
-              <p className="TeamMemberRole normalfont">Community manager and investor</p>
+              <p className="TeamMemberRole normalfont">Community manager & investor</p>
             </div>  
           </div>
           <div className="col-lg-3" />
         
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
-              <img src="https://picsum.photos/200/200.jpg" className="TeamMemberImage" />
+              <img src="https://media.discordapp.net/attachments/938106030351609897/962378999403806831/unknown.png" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">David Tomeček</h4>
-              <p className="TeamMemberRole normalfont">Investor and team support</p>
+              <p className="TeamMemberRole normalfont">Investor & team support</p>
             </div>  
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502160204910612/unknown.png?width=279&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Elias Triekels</h4>
-              <p className="TeamMemberRole normalfont">Investor and team support</p>
+              <p className="TeamMemberRole normalfont">Investor & team support</p>
             </div>  
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502160670470224/unknown.png?width=506&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Arhan Okuyan</h4>
-              <p className="TeamMemberRole normalfont">Investor and team support </p>
+              <p className="TeamMemberRole normalfont">Investor & team support </p>
             </div>  
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
-              <img src="https://picsum.photos/200/200.jpg" className="TeamMemberImage" />
+              <img src={unkowncollectible} className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Warre Bossaert</h4>
               <p className="TeamMemberRole normalfont">Web 3 developer</p>
             </div>  
@@ -116,7 +116,7 @@ function App() {
             <div className="TeamMember">
               <img src="https://media.discordapp.net/attachments/938106030351609897/960502161391910933/unknown.png?width=676&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Ruben Marques</h4>
-              <p className="TeamMemberRole normalfont">Investor and team support</p>
+              <p className="TeamMemberRole normalfont">Investor & team support</p>
             </div>  
           </div>
         </div>
