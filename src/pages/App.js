@@ -107,7 +107,7 @@ function App() {
           </div>
           <div className="col-lg-2 col-4">
             <div className="TeamMember">
-              <img src={unkowncollectible} className="TeamMemberImage" />
+              <img src="https://media.discordapp.net/attachments/938106030351609897/962989754083835914/onbekend.jpeg?width=676&height=676" className="TeamMemberImage" />
               <h4 className="TeamMemberName normalfont">Warre Bossaert</h4>
               <p className="TeamMemberRole normalfont">Web 3 developer</p>
             </div>  
