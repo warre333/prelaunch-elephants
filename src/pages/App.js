@@ -4,16 +4,7 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 import Header from '../components/Header';
-import Gif from "../images/gif.mp4";
 import IntroVideo from "../images/IntroductionVideo.mp4";
-import Roadmap from "../images/Roadmap.png";
-import Roadmap2 from "../images/Roadmap2.png";
-import About from "../images/About.jpg";
-
-import rarecollectible1 from "../images/rarecollectibles/1.jpg";
-import rarecollectible2 from "../images/rarecollectibles/2.jpg";
-import rarecollectible3 from "../images/rarecollectibles/3.jpg";
-import unkowncollectible from "../images/rarecollectibles/unkown.jpg";
 import { useEffect } from 'react';
 
 function App() {
@@ -25,7 +16,7 @@ function App() {
       <Header />
 
       <div className="About">
-        <img src={About} className="AboutImage" />
+        <img src="https://media.discordapp.net/attachments/938106030351609897/959449288528773190/Untitled.jpg?width=720&height=405" className="AboutImage" />
       </div>
 
       <div id="story" />
@@ -37,19 +28,22 @@ function App() {
         <div className="col-md-5 col-12" data-aos="fade-up">
           <video controls autoPlay loop muted src={IntroVideo} className="IntroVideo"/>
         </div>
-        <div className="col" data-aos="fade-up" id="" style={{marginTop: "15vh"}}>
-          <h2 className="Title text-md-start text-center">Drippy Elephants Spotted!</h2>
-          <h3 className="Text text-md-start text-center blacktext">5555 unique newborn elephants fighting world extinction.</h3>
-          <h3 className="Text text-md-start text-center blacktext">Our community will benefit from our utility and gain access to our next collection the Zookeepers. join us for exclusive events.</h3>
-          <h3 className="Text text-md-start text-center blacktext">A zoo awaits us in the metaverse!</h3>
+        <div className="col" data-aos="fade-up" id="" style={{marginTop: "10vh"}}>
+          {/*backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundImage: "url('https://media.discordapp.net/attachments/938106030351609897/964093034843222046/a98b788c-b883-44fa-b1fe-2e87406c8630.sketchpad_1.png?width=720&height=360'",*/}
+          <div className="" style={{backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "5vw 2vw 5vw 2vw", marginRight: "1vw", marginLeft: "1vw", borderRadius: "10px"}}>
+            <h2 className="Title text-md-start text-center color-white" style={{color: "var(--white)", fontFamily: 'Patrick Hand'}} >Drippy Elephants Spotted!</h2>
+            <h3 className="Text text-md-start text-center  color-white" style={{fontFamily: 'Patrick Hand'}}>5555 unique newborn elephants fighting world extinction.</h3>
+            <h3 className="Text text-md-start text-center  color-white" style={{fontFamily: 'Patrick Hand'}}>Our community will benefit from our utility and gain access to our next collection the Zookeepers. join us for exclusive events.</h3>
+            <h3 className="Text text-md-start text-center  color-white" style={{fontFamily: 'Patrick Hand'}}>A zoo awaits us in the metaverse!</h3>
+          </div>
         </div>
       </div>
 
 
       <div id="roadmap" />
       <div className="Roadmap row" data-aos="fade-up" style={{marginTop: "15vh"}}>
-        <div className="col-12 col-lg-6"><img src={Roadmap} className="shadow-lg RoadmapImage w-100" /></div>
-        <div className="col-12 col-lg-6"><img src={Roadmap2} className="shadow-lg RoadmapImage w-100" /></div>
+        <div className="col-12 col-lg-6"><img src="https://media.discordapp.net/attachments/938106030351609897/959473987673526363/IMG_2048.jpg?width=720&height=405" className="shadow-lg RoadmapImage w-100" /></div>
+        <div className="col-12 col-lg-6"><img src="https://media.discordapp.net/attachments/938106030351609897/959473988038451220/IMG_2061.jpg?width=720&height=405" className="shadow-lg RoadmapImage w-100" /></div>
         
         
       </div>
@@ -127,27 +121,27 @@ function App() {
         
         <div className="row row-cols-md-6 row-cols-3 gy-2" data-aos="fade-up" style={{marginBottom: "10vh"}}>
           <div className="col">
-            <img src={rarecollectible1} alt="rarecollectibe" className="rarecollectibe img-fluid rounded"  />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/959451739403214858/elephant_hoodie_2.jpg?width=676&height=676" alt="rarecollectibe" className="rarecollectibe img-fluid rounded"  />
           </div>
 
           <div className="col">
-            <img src={rarecollectible2} alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/959451740095283240/Elephant_NFT.jpg?width=676&height=676" alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
           </div>
 
           <div className="col">
-            <img src={rarecollectible3} alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/959451740577611846/elephant.jpg?width=676&height=676" alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
           </div>
 
           <div className="col">
-            <img src={unkowncollectible} alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/964600106596843610/elephant_1.png?width=676&height=676" alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
           </div>
 
           <div className="col">
-            <img src={unkowncollectible} alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/959457286999384174/Ontwerp_zonder_titel.jpg" alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
           </div>
 
           <div className="col">
-            <img src={unkowncollectible} alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
+            <img src="https://media.discordapp.net/attachments/938106030351609897/959457286999384174/Ontwerp_zonder_titel.jpg" alt="rarecollectibe" className="rarecollectibe img-fluid rounded" />
           </div>
         </div>
       </div>
